@@ -2,8 +2,7 @@
 import mongoose from "mongoose";
 
 const connectionString =
-  process.env.MONGO_ATLAS_SRV || "mongodb://localhost:27017/ecommerce";
-
+     process.env.MONGO_ATLAS_SRV || "mongodb+srv://cristian:cris2022@ecommerce.ndh4rfm.mongodb.net/test";
 export const initMongoDB = async () => {
   try {
     console.log("CONECTANDO A MI BASE DE DATOS MONGO");
